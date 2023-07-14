@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "498623551364",
+    "project_id": "cryptoapp-b7e17",
+    "storage_bucket": "cryptoapp-b7e17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498623551364:android:92c1868f33a8f9b2776fd1",
+        "android_client_info": {
+          "package_name": "com.cryptoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498623551364-slq9584h6fi4qqlnhvln66bhfcgkjecm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cryptoapp",
+            "certificate_hash": "b957113685724482ff3e816aabf8f6e6575f8464"
+          }
+        },
+        {
+          "client_id": "498623551364-7kb135kotuafs0g6mbeeofrqsq3j26ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkf_DLoDbdic2oOnGiPi-BfLB_NngHLb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498623551364-7kb135kotuafs0g6mbeeofrqsq3j26ac.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "498623551364-n72d5bni8hu3tbh8ueg4rore8rfgu3qo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.cryptoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

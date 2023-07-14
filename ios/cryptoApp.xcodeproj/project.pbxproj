@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* cryptoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cryptoAppTests.m */; };
+		0852C5C8EE7FD91D542E26A5 /* libPods-cryptoApp-cryptoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DF44B346BC4334E01DA9E8 /* libPods-cryptoApp-cryptoAppTests.a */; };
+		0BC0CF5EA8AF41A58E148144 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC217B52CA99400B89D67030 /* Roboto-Light.ttf */; };
+		1339884D309443EF9B6E3C54 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2892F9B8383B4B47A52E4CEB /* Roboto-BlackItalic.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		180EEB95DA5C4BC682F2574B /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 175439748A7E4AEBB08A95E2 /* Roboto-LightItalic.ttf */; };
+		1EE44D2DF9A24526BEDD4F32 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41271C3B3E574055B3B60477 /* Roboto-BoldItalic.ttf */; };
+		524D099B91D94D87A980AF5F /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16B995BE98C44CBBBD026DB /* RobotoCondensed-Bold.ttf */; };
+		5A147C2EE74C4D91ACD843E1 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4010ECE112B4524AE2CDC68 /* RobotoCondensed-Italic.ttf */; };
+		7524DA163F79CFC4214762B7 /* libPods-cryptoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0D653E17E76BB88849C9B0 /* libPods-cryptoApp.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		85A03EE99AE64E4F91669390 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7DD49ACE9B24B2D8BDFC176 /* RobotoCondensed-LightItalic.ttf */; };
+		87CDD299D60144FEB4196625 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D90EA892C472DA32B6380 /* Roboto-Medium.ttf */; };
+		8B72B3F644FE4CFB80CE4382 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5F14893408740EDB42636FF /* RobotoCondensed-BoldItalic.ttf */; };
+		8B77572E696946369DDAF01F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E4FCEBD17BC467780A44866 /* Roboto-Bold.ttf */; };
+		A253C86211944A8BB7DC9C62 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A479F67A10D94ED7B554DF52 /* Roboto-Regular.ttf */; };
+		AC45CE8182564F319E5ED0C2 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3218E25972646B5AD0F08C5 /* RobotoCondensed-Light.ttf */; };
+		CD4A02DA25504F0EB1470891 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF35B452F7482ABC47FA9D /* Roboto-ThinItalic.ttf */; };
+		D7827E6A046B449A8FFC6205 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C22692B430D5414082D69F55 /* Roboto-Thin.ttf */; };
+		E090FDC924984FFDB469CE5F /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7E375D44996443086AD75A5 /* RobotoCondensed-Regular.ttf */; };
+		E0C79B101A214E1E970F6F33 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5026DBBE581413E9AD4D162 /* Roboto-Italic.ttf */; };
+		E18A3DB1D99D4EF896271687 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 718CEBDA26484C168278D0A3 /* Roboto-Black.ttf */; };
+		F30BE17B27DB42EB00D859D0 /* double-conversion.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30BE17727DB42AC00D859D0 /* double-conversion.xcframework */; };
+		F30BE17C27DB42EB00D859D0 /* double-conversion.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F30BE17727DB42AC00D859D0 /* double-conversion.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F3906CB72817C85900633852 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3906CB62817C85900633852 /* GoogleService-Info.plist */; };
+		F3A482A8280975D800B550C8 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35C658327DB24040043C1E5 /* OpenSSL.xcframework */; };
+		F3A482A9280975D800B550C8 /* OpenSSL.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F35C658327DB24040043C1E5 /* OpenSSL.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F5C8FF670EA74BFBA5B7C6FC /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7F4DD8F83F14266AEC0C414 /* Roboto-MediumItalic.ttf */; };
+		FAF4BFF3FAA240CEBF8364C4 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B95C32375C694DCC977CDE4C /* AntDesign.ttf */; };
+		F54EB35B67D44C7FBEE4E2EF /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8208FE9DC81431C9354D838 /* Entypo.ttf */; };
+		6C7C24F38E9245F292290CBE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B126ADC795274F7382635A92 /* EvilIcons.ttf */; };
+		47394B8FC41A499484864D84 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44BD401AFEF943209DC32FB9 /* Feather.ttf */; };
+		852B20F7A7974858AB5B4B73 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA23CAB0523841F4ADDF6DC5 /* FontAwesome.ttf */; };
+		DC9CDDE5398D404180D00282 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32E86E10CC347CDBCB892E1 /* FontAwesome5_Brands.ttf */; };
+		91667FACBD1C4AD895B67E5F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 158A84C19ABB4C0FA83D9D68 /* FontAwesome5_Regular.ttf */; };
+		6E34A08FBE514A57B36A413A /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CED4A4B7D49D4E0BB85722D5 /* FontAwesome5_Solid.ttf */; };
+		D6B82B292BE94B558E0721BB /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12BF9FEF287F4E488593739E /* Fontisto.ttf */; };
+		7B96220055324592AFC25F35 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4347DE609266469EBD0CFD36 /* Foundation.ttf */; };
+		8E81F2A285134DC899AAF71A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8846793EA5464ED0AB963001 /* Ionicons.ttf */; };
+		ED7C2ADA13E9436E91FB2C5C /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 539527A4AD664CD2934CDD31 /* MaterialCommunityIcons.ttf */; };
+		B5F025A62EC94680BA37D7E0 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45F1DF36A3A3424F99EBE53E /* MaterialIcons.ttf */; };
+		9574209C61F24B7B8F126713 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4786AF6987974B388DDAC633 /* Octicons.ttf */; };
+		EB02A55AC43B4ACAB1F21444 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE6FA88EC84A44DAA8604E08 /* SimpleLineIcons.ttf */; };
+		1B75BD89D5884D498B3A059F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B2A68E560F48098CB86892 /* Zocial.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = cryptoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F30BE17D27DB42EB00D859D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3A482A9280975D800B550C8 /* OpenSSL.xcframework in Embed Frameworks */,
+				F30BE17C27DB42EB00D859D0 /* double-conversion.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* cryptoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cryptoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* cryptoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cryptoAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* cryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cryptoApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = cryptoApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cryptoApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cryptoApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cryptoApp/main.m; sourceTree = "<group>"; };
+		175439748A7E4AEBB08A95E2 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/utils/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		1B00EE584DE999F3B24A8C53 /* Pods-cryptoApp-cryptoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoApp-cryptoAppTests.release.xcconfig"; path = "Target Support Files/Pods-cryptoApp-cryptoAppTests/Pods-cryptoApp-cryptoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CBF35B452F7482ABC47FA9D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/utils/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1D5D90EA892C472DA32B6380 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/utils/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		2892F9B8383B4B47A52E4CEB /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/utils/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2E4FCEBD17BC467780A44866 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/utils/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		379B5F7AC9C3A40DEAD7B3E8 /* Pods-cryptoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoApp.debug.xcconfig"; path = "Target Support Files/Pods-cryptoApp/Pods-cryptoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		41271C3B3E574055B3B60477 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/utils/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4F39CB44F9E3BFB3A9D7D7CF /* Pods-cryptoApp-cryptoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoApp-cryptoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-cryptoApp-cryptoAppTests/Pods-cryptoApp-cryptoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		718CEBDA26484C168278D0A3 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/utils/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		7F0D653E17E76BB88849C9B0 /* libPods-cryptoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = cryptoApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88DF44B346BC4334E01DA9E8 /* libPods-cryptoApp-cryptoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptoApp-cryptoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A415A47D49CBCF7A1B44AEE9 /* Pods-cryptoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoApp.release.xcconfig"; path = "Target Support Files/Pods-cryptoApp/Pods-cryptoApp.release.xcconfig"; sourceTree = "<group>"; };
+		A479F67A10D94ED7B554DF52 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/utils/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A5F14893408740EDB42636FF /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../src/utils/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A7F4DD8F83F14266AEC0C414 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/utils/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B4010ECE112B4524AE2CDC68 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../src/utils/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		C22692B430D5414082D69F55 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/utils/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		C3218E25972646B5AD0F08C5 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../src/utils/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		CC217B52CA99400B89D67030 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/utils/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		D7E375D44996443086AD75A5 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../src/utils/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		E5026DBBE581413E9AD4D162 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/utils/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F16B995BE98C44CBBBD026DB /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../src/utils/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		F30BE17727DB42AC00D859D0 /* double-conversion.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "double-conversion.xcframework"; path = "Pods/Flipper-DoubleConversion/Frameworks/double-conversion.xcframework"; sourceTree = "<group>"; };
+		F35C658327DB24040043C1E5 /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = "Pods/OpenSSL-Universal/Frameworks/OpenSSL.xcframework"; sourceTree = "<group>"; };
+		F3906CB62817C85900633852 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7DD49ACE9B24B2D8BDFC176 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../src/utils/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		B95C32375C694DCC977CDE4C /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8208FE9DC81431C9354D838 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B126ADC795274F7382635A92 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		44BD401AFEF943209DC32FB9 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA23CAB0523841F4ADDF6DC5 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C32E86E10CC347CDBCB892E1 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		158A84C19ABB4C0FA83D9D68 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CED4A4B7D49D4E0BB85722D5 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12BF9FEF287F4E488593739E /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4347DE609266469EBD0CFD36 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8846793EA5464ED0AB963001 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		539527A4AD664CD2934CDD31 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45F1DF36A3A3424F99EBE53E /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4786AF6987974B388DDAC633 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE6FA88EC84A44DAA8604E08 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77B2A68E560F48098CB86892 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0852C5C8EE7FD91D542E26A5 /* libPods-cryptoApp-cryptoAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A482A8280975D800B550C8 /* OpenSSL.xcframework in Frameworks */,
+				F30BE17B27DB42EB00D859D0 /* double-conversion.xcframework in Frameworks */,
+				7524DA163F79CFC4214762B7 /* libPods-cryptoApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* cryptoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* cryptoAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = cryptoAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* cryptoApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3906CB62817C85900633852 /* GoogleService-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = cryptoApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F30BE17727DB42AC00D859D0 /* double-conversion.xcframework */,
+				F35C658327DB24040043C1E5 /* OpenSSL.xcframework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				7F0D653E17E76BB88849C9B0 /* libPods-cryptoApp.a */,
+				88DF44B346BC4334E01DA9E8 /* libPods-cryptoApp-cryptoAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E88D0BBD22D4418877D790F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				718CEBDA26484C168278D0A3 /* Roboto-Black.ttf */,
+				2892F9B8383B4B47A52E4CEB /* Roboto-BlackItalic.ttf */,
+				2E4FCEBD17BC467780A44866 /* Roboto-Bold.ttf */,
+				41271C3B3E574055B3B60477 /* Roboto-BoldItalic.ttf */,
+				E5026DBBE581413E9AD4D162 /* Roboto-Italic.ttf */,
+				CC217B52CA99400B89D67030 /* Roboto-Light.ttf */,
+				175439748A7E4AEBB08A95E2 /* Roboto-LightItalic.ttf */,
+				1D5D90EA892C472DA32B6380 /* Roboto-Medium.ttf */,
+				A7F4DD8F83F14266AEC0C414 /* Roboto-MediumItalic.ttf */,
+				A479F67A10D94ED7B554DF52 /* Roboto-Regular.ttf */,
+				C22692B430D5414082D69F55 /* Roboto-Thin.ttf */,
+				1CBF35B452F7482ABC47FA9D /* Roboto-ThinItalic.ttf */,
+				F16B995BE98C44CBBBD026DB /* RobotoCondensed-Bold.ttf */,
+				A5F14893408740EDB42636FF /* RobotoCondensed-BoldItalic.ttf */,
+				B4010ECE112B4524AE2CDC68 /* RobotoCondensed-Italic.ttf */,
+				C3218E25972646B5AD0F08C5 /* RobotoCondensed-Light.ttf */,
+				F7DD49ACE9B24B2D8BDFC176 /* RobotoCondensed-LightItalic.ttf */,
+				D7E375D44996443086AD75A5 /* RobotoCondensed-Regular.ttf */,
+				B95C32375C694DCC977CDE4C /* AntDesign.ttf */,
+				E8208FE9DC81431C9354D838 /* Entypo.ttf */,
+				B126ADC795274F7382635A92 /* EvilIcons.ttf */,
+				44BD401AFEF943209DC32FB9 /* Feather.ttf */,
+				EA23CAB0523841F4ADDF6DC5 /* FontAwesome.ttf */,
+				C32E86E10CC347CDBCB892E1 /* FontAwesome5_Brands.ttf */,
+				158A84C19ABB4C0FA83D9D68 /* FontAwesome5_Regular.ttf */,
+				CED4A4B7D49D4E0BB85722D5 /* FontAwesome5_Solid.ttf */,
+				12BF9FEF287F4E488593739E /* Fontisto.ttf */,
+				4347DE609266469EBD0CFD36 /* Foundation.ttf */,
+				8846793EA5464ED0AB963001 /* Ionicons.ttf */,
+				539527A4AD664CD2934CDD31 /* MaterialCommunityIcons.ttf */,
+				45F1DF36A3A3424F99EBE53E /* MaterialIcons.ttf */,
+				4786AF6987974B388DDAC633 /* Octicons.ttf */,
+				EE6FA88EC84A44DAA8604E08 /* SimpleLineIcons.ttf */,
+				77B2A68E560F48098CB86892 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50CBB551A5324CD1A9ACAF98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				379B5F7AC9C3A40DEAD7B3E8 /* Pods-cryptoApp.debug.xcconfig */,
+				A415A47D49CBCF7A1B44AEE9 /* Pods-cryptoApp.release.xcconfig */,
+				4F39CB44F9E3BFB3A9D7D7CF /* Pods-cryptoApp-cryptoAppTests.debug.xcconfig */,
+				1B00EE584DE999F3B24A8C53 /* Pods-cryptoApp-cryptoAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* cryptoApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* cryptoAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4E88D0BBD22D4418877D790F /* Resources */,
+				50CBB551A5324CD1A9ACAF98 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* cryptoApp.app */,
+				00E356EE1AD99517003FC87E /* cryptoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* cryptoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cryptoAppTests" */;
+			buildPhases = (
+				A9106C26BB3496CA788D3658 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				FDEE523EE0C4E301E9237F55 /* [CP] Embed Pods Frameworks */,
+				FA8EE108BD62D1534ABF4A4B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = cryptoAppTests;
+			productName = cryptoAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* cryptoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* cryptoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cryptoApp" */;
+			buildPhases = (
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F30BE17D27DB42EB00D859D0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cryptoApp;
+			productName = cryptoApp;
+			productReference = 13B07F961A680F5B00A75B9A /* cryptoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cryptoApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* cryptoApp */,
+				00E356ED1AD99517003FC87E /* cryptoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F3906CB72817C85900633852 /* GoogleService-Info.plist in Resources */,
+				E18A3DB1D99D4EF896271687 /* Roboto-Black.ttf in Resources */,
+				1339884D309443EF9B6E3C54 /* Roboto-BlackItalic.ttf in Resources */,
+				8B77572E696946369DDAF01F /* Roboto-Bold.ttf in Resources */,
+				1EE44D2DF9A24526BEDD4F32 /* Roboto-BoldItalic.ttf in Resources */,
+				E0C79B101A214E1E970F6F33 /* Roboto-Italic.ttf in Resources */,
+				0BC0CF5EA8AF41A58E148144 /* Roboto-Light.ttf in Resources */,
+				180EEB95DA5C4BC682F2574B /* Roboto-LightItalic.ttf in Resources */,
+				87CDD299D60144FEB4196625 /* Roboto-Medium.ttf in Resources */,
+				F5C8FF670EA74BFBA5B7C6FC /* Roboto-MediumItalic.ttf in Resources */,
+				A253C86211944A8BB7DC9C62 /* Roboto-Regular.ttf in Resources */,
+				D7827E6A046B449A8FFC6205 /* Roboto-Thin.ttf in Resources */,
+				CD4A02DA25504F0EB1470891 /* Roboto-ThinItalic.ttf in Resources */,
+				524D099B91D94D87A980AF5F /* RobotoCondensed-Bold.ttf in Resources */,
+				8B72B3F644FE4CFB80CE4382 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				5A147C2EE74C4D91ACD843E1 /* RobotoCondensed-Italic.ttf in Resources */,
+				AC45CE8182564F319E5ED0C2 /* RobotoCondensed-Light.ttf in Resources */,
+				85A03EE99AE64E4F91669390 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				E090FDC924984FFDB469CE5F /* RobotoCondensed-Regular.ttf in Resources */,
+				FAF4BFF3FAA240CEBF8364C4 /* AntDesign.ttf in Resources */,
+				F54EB35B67D44C7FBEE4E2EF /* Entypo.ttf in Resources */,
+				6C7C24F38E9245F292290CBE /* EvilIcons.ttf in Resources */,
+				47394B8FC41A499484864D84 /* Feather.ttf in Resources */,
+				852B20F7A7974858AB5B4B73 /* FontAwesome.ttf in Resources */,
+				DC9CDDE5398D404180D00282 /* FontAwesome5_Brands.ttf in Resources */,
+				91667FACBD1C4AD895B67E5F /* FontAwesome5_Regular.ttf in Resources */,
+				6E34A08FBE514A57B36A413A /* FontAwesome5_Solid.ttf in Resources */,
+				D6B82B292BE94B558E0721BB /* Fontisto.ttf in Resources */,
+				7B96220055324592AFC25F35 /* Foundation.ttf in Resources */,
+				8E81F2A285134DC899AAF71A /* Ionicons.ttf in Resources */,
+				ED7C2ADA13E9436E91FB2C5C /* MaterialCommunityIcons.ttf in Resources */,
+				B5F025A62EC94680BA37D7E0 /* MaterialIcons.ttf in Resources */,
+				9574209C61F24B7B8F126713 /* Octicons.ttf in Resources */,
+				EB02A55AC43B4ACAB1F21444 /* SimpleLineIcons.ttf in Resources */,
+				1B75BD89D5884D498B3A059F /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		A9106C26BB3496CA788D3658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cryptoApp-cryptoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8EE108BD62D1534ABF4A4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cryptoApp-cryptoAppTests/Pods-cryptoApp-cryptoAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cryptoApp-cryptoAppTests/Pods-cryptoApp-cryptoAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cryptoApp-cryptoAppTests/Pods-cryptoApp-cryptoAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEE523EE0C4E301E9237F55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cryptoApp-cryptoAppTests/Pods-cryptoApp-cryptoAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cryptoApp-cryptoAppTests/Pods-cryptoApp-cryptoAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cryptoApp-cryptoAppTests/Pods-cryptoApp-cryptoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* cryptoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* cryptoApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F39CB44F9E3BFB3A9D7D7CF /* Pods-cryptoApp-cryptoAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cryptoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cryptoApp.app/cryptoApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B00EE584DE999F3B24A8C53 /* Pods-cryptoApp-cryptoAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = cryptoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cryptoApp.app/cryptoApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379B5F7AC9C3A40DEAD7B3E8 /* Pods-cryptoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = cryptoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = cryptoApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A415A47D49CBCF7A1B44AEE9 /* Pods-cryptoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = cryptoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = cryptoApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cryptoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cryptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cryptoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
